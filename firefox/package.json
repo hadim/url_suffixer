@@ -1,0 +1,23 @@
+{
+  "title": "URL Suffixer",
+  "name": "url_suffixer",
+  "version": "1.0.0",
+  "description": "One click suffix any url !",
+  "main": "index.js",
+  "author": "HadiM",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ],
+  "preferences": [{
+          "name": "url_suffix",
+          "title": "Suffix to add to the current URL",
+          "description": "Suffix to add to the current URL",
+          "type": "string",
+          "value": ".gate1.inist.fr"
+      }]
+}
